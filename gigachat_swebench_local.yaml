@@ -1,0 +1,54 @@
+# GigaChat3-10B-A1.8B SWE-bench LOCAL evaluation config
+# WARNING: Runs code directly without container isolation!
+
+agent:
+  system_template: |
+    You are an expert programmer. Respond with THOUGHT section followed by exactly ONE bash code block.
+
+    Format:
+    THOUGHT: your reasoning
+    ```bash
+    command
+    ```
+  instance_template: |
+    Fix this issue:
+    {{task}}
+
+    Rules:
+    - Respond with THOUGHT then ONE ```bash``` block
+    - Modify only source files (not tests/configs)
+    - When done: `echo MINI_SWE_AGENT_FINAL_OUTPUT && git add -A && git diff --cached`
+  action_observation_template: |
+    <returncode>{{output.returncode}}</returncode>
+    {% if output.output | length < 10000 -%}
+    <output>
+    {{ output.output -}}
+    </output>
+    {%- else -%}
+    <warning>Output too long. Use head/tail or more specific commands.</warning>
+    <output_head>{{ output.output[:5000] }}</output_head>
+    <elided>{{ output.output | length - 10000 }} chars elided</elided>
+    <output_tail>{{ output.output[-5000:] }}</output_tail>
+    {%- endif -%}
+  format_error_template: |
+    Please provide EXACTLY ONE action in triple backticks, found {{actions|length}} actions.
+    Format as shown in the examples above.
+  step_limit: 50  # Reduced for local testing
+  cost_limit: 0.0
+
+environment:
+  timeout: 60
+  env:
+    PAGER: cat
+    MANPAGER: cat
+    LESS: -R
+
+model:
+  model_name: "openai/gigachat-10b"
+  litellm_model_registry: "model_registry.json"
+  model_kwargs:
+    api_base: "http://localhost:8000/v1"
+    api_key: "local"
+    temperature: 0.0
+    max_tokens: 2048  # Reduced to fit within 8192 context
+    drop_params: true

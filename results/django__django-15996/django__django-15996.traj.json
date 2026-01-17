@@ -1,0 +1,6 @@
+{
+  "instance_id": "django__django-15996",
+  "exit_status": "ContextWindowExceededError",
+  "steps": 0,
+  "error": "litellm.ContextWindowExceededError: litellm.BadRequestError: ContextWindowExceededError: OpenAIException - 'max_tokens' or 'max_completion_tokens' is too large: 2048. This model's maximum context length is 32768 tokens and your request has 31454 input tokens (2048 > 32768 - 31454). None"
+}

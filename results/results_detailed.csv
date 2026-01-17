@@ -1,0 +1,2 @@
+instance_id,repository,exit_status,error_type,steps,cost,has_patch,patch_length
+sqlfluff__sqlfluff-1625,sqlfluff/sqlfluff-1625,unknown,no_action,0,0.0,False,0

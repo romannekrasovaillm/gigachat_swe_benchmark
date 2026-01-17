@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-01-17T11:14:26.972743",
+  "total_instances": 23,
+  "completed": 0,
+  "failed": 23,
+  "with_patch": 3,
+  "completion_rate": 0.0,
+  "patch_rate": 13.043478260869565,
+  "avg_steps": 0.0,
+  "median_steps": 0,
+  "total_cost": 0.0,
+  "exit_status_counts": {
+    "unknown": 23
+  },
+  "error_categories": {
+    "no_action": 23
+  },
+  "repo_stats": {
+    "sqlfluff/sqlfluff-1625": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sqlfluff/sqlfluff-2419": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sqlfluff/sqlfluff-1733": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sqlfluff/sqlfluff-1517": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sqlfluff/sqlfluff-1763": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "marshmallow-code/marshmallow-1359": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "marshmallow-code/marshmallow-1343": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pvlib/pvlib-python-1707": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "pvlib/pvlib-python-1072": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pvlib/pvlib-python-1606": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pvlib/pvlib-python-1854": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pvlib/pvlib-python-1154": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/astroid-1978": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/astroid-1333": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/astroid-1196": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/astroid-1866": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/astroid-1268": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pyvista/pyvista-4315": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydicom/pydicom-1694": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydicom/pydicom-1413": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "pydicom/pydicom-901": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydicom/pydicom-1139": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "pydicom/pydicom-1256": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    }
+  },
+  "successful_instances": [],
+  "failed_instances": [
+    "sqlfluff__sqlfluff-1625",
+    "sqlfluff__sqlfluff-2419",
+    "sqlfluff__sqlfluff-1733",
+    "sqlfluff__sqlfluff-1517",
+    "sqlfluff__sqlfluff-1763",
+    "marshmallow-code__marshmallow-1359",
+    "marshmallow-code__marshmallow-1343",
+    "pvlib__pvlib-python-1707",
+    "pvlib__pvlib-python-1072",
+    "pvlib__pvlib-python-1606",
+    "pvlib__pvlib-python-1854",
+    "pvlib__pvlib-python-1154",
+    "pylint-dev__astroid-1978",
+    "pylint-dev__astroid-1333",
+    "pylint-dev__astroid-1196",
+    "pylint-dev__astroid-1866",
+    "pylint-dev__astroid-1268",
+    "pyvista__pyvista-4315",
+    "pydicom__pydicom-1694",
+    "pydicom__pydicom-1413",
+    "pydicom__pydicom-901",
+    "pydicom__pydicom-1139",
+    "pydicom__pydicom-1256"
+  ]
+}
