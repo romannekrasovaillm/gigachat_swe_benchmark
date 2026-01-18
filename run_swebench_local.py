@@ -198,7 +198,12 @@ async def run_subprocess(cmd: list[str], cwd: Path | None = None, timeout: int =
         raise TimeoutError(f"Command timed out after {timeout}s: {' '.join(cmd)}")
 
 
-async def setup_repo_async(instance: dict, work_dir: Path, logger) -> Path:
+async def setup_repo_async(
+    instance: dict,
+    work_dir: Path,
+    logger,
+    git_semaphore: asyncio.Semaphore | None = None,
+) -> Path:
     """Clone repo and checkout base commit asynchronously."""
     repo = instance["repo"]
     base_commit = instance["base_commit"]
@@ -210,43 +215,72 @@ async def setup_repo_async(instance: dict, work_dir: Path, logger) -> Path:
     if repo_dir.exists():
         shutil.rmtree(repo_dir)
 
-    logger.info(f"[{instance_id}] Cloning {repo}...")
-    returncode, stdout, stderr = await run_subprocess(
-        ["git", "clone", f"https://github.com/{repo}.git", str(repo_dir)],
-        timeout=600
-    )
-    if returncode != 0:
-        raise RuntimeError(f"Git clone failed: {stderr}")
+    # Limit concurrent git operations
+    async def do_git_ops():
+        logger.info(f"[{instance_id}] Cloning {repo}...")
+        returncode, stdout, stderr = await run_subprocess(
+            ["git", "clone", "--depth", "1", "--no-single-branch", f"https://github.com/{repo}.git", str(repo_dir)],
+            timeout=600
+        )
+        if returncode != 0:
+            raise RuntimeError(f"Git clone failed: {stderr}")
 
-    logger.info(f"[{instance_id}] Checking out {base_commit[:8]}...")
-    returncode, stdout, stderr = await run_subprocess(
-        ["git", "checkout", base_commit],
-        cwd=repo_dir,
-        timeout=60
-    )
-    if returncode != 0:
-        raise RuntimeError(f"Git checkout failed: {stderr}")
+        # Fetch the specific commit if shallow clone doesn't have it
+        logger.info(f"[{instance_id}] Fetching {base_commit[:8]}...")
+        await run_subprocess(
+            ["git", "fetch", "origin", base_commit],
+            cwd=repo_dir,
+            timeout=300
+        )
 
-    # Try to install dependencies (best effort)
+        logger.info(f"[{instance_id}] Checking out {base_commit[:8]}...")
+        returncode, stdout, stderr = await run_subprocess(
+            ["git", "checkout", base_commit],
+            cwd=repo_dir,
+            timeout=120
+        )
+        if returncode != 0:
+            # If checkout fails, try full fetch
+            logger.warning(f"[{instance_id}] Shallow checkout failed, fetching full history...")
+            await run_subprocess(
+                ["git", "fetch", "--unshallow"],
+                cwd=repo_dir,
+                timeout=600
+            )
+            returncode, stdout, stderr = await run_subprocess(
+                ["git", "checkout", base_commit],
+                cwd=repo_dir,
+                timeout=120
+            )
+            if returncode != 0:
+                raise RuntimeError(f"Git checkout failed: {stderr}")
+
+    if git_semaphore:
+        async with git_semaphore:
+            await do_git_ops()
+    else:
+        await do_git_ops()
+
+    # Try to install dependencies (best effort, outside semaphore)
     logger.info(f"[{instance_id}] Installing dependencies...")
     try:
         if (repo_dir / "requirements.txt").exists():
             await run_subprocess(
                 [sys.executable, "-m", "pip", "install", "-r", "requirements.txt", "-q"],
                 cwd=repo_dir,
-                timeout=120
+                timeout=300
             )
         if (repo_dir / "setup.py").exists():
             await run_subprocess(
                 [sys.executable, "-m", "pip", "install", "-e", ".", "-q"],
                 cwd=repo_dir,
-                timeout=120
+                timeout=300
             )
         elif (repo_dir / "pyproject.toml").exists():
             await run_subprocess(
                 [sys.executable, "-m", "pip", "install", "-e", ".", "-q"],
                 cwd=repo_dir,
-                timeout=120
+                timeout=300
             )
     except Exception as e:
         logger.warning(f"[{instance_id}] Failed to install deps: {e}")
@@ -312,6 +346,7 @@ async def process_instance_async(
     work_dir: Path,
     output_dir: Path,
     semaphore: asyncio.Semaphore,
+    git_semaphore: asyncio.Semaphore,
     logger,
     quiet: bool = False,
 ) -> dict:
@@ -329,8 +364,8 @@ async def process_instance_async(
 
     repo_dir = None
     try:
-        # Setup repository (can run in parallel)
-        repo_dir = await setup_repo_async(instance, work_dir, logger)
+        # Setup repository (limited by git_semaphore)
+        repo_dir = await setup_repo_async(instance, work_dir, logger, git_semaphore)
 
         # Acquire semaphore for model inference (limited concurrency)
         async with semaphore:
@@ -436,7 +471,11 @@ async def main_async():
     )
     parser.add_argument(
         "-j", "--concurrency", type=int, default=1,
-        help="Number of parallel instances to process (default: 1)"
+        help="Number of parallel model inference (default: 1)"
+    )
+    parser.add_argument(
+        "--git-concurrency", type=int, default=4,
+        help="Number of parallel git clone/checkout operations (default: 4)"
     )
     parser.add_argument(
         "-q", "--quiet", action="store_true",
@@ -448,7 +487,8 @@ async def main_async():
     print("="*60)
     print("  SWE-bench Local Runner - ASYNC VERSION")
     print("  WARNING: Code runs directly on your machine!")
-    print(f"  Concurrency: {args.concurrency}")
+    print(f"  Model concurrency: {args.concurrency}")
+    print(f"  Git concurrency: {args.git_concurrency}")
     print("="*60)
 
     # Load config
@@ -494,8 +534,9 @@ async def main_async():
     print(f"Output: {output_dir}")
     print(f"Work dir: {work_dir}")
 
-    # Create semaphore for limiting concurrent model calls
-    semaphore = asyncio.Semaphore(args.concurrency)
+    # Create semaphores for limiting concurrency
+    semaphore = asyncio.Semaphore(args.concurrency)  # For model inference
+    git_semaphore = asyncio.Semaphore(args.git_concurrency)  # For git operations
 
     # Create tasks for all instances
     tasks = [
@@ -506,6 +547,7 @@ async def main_async():
             work_dir,
             output_dir,
             semaphore,
+            git_semaphore,
             logger,
             quiet=args.quiet or args.concurrency > 1,  # Auto-quiet in parallel mode
         )
