@@ -1,6 +1,6 @@
 # GigaChat3-10B SWE-bench Benchmark
 
-Бенчмарк модели [GigaChat3-10B-A1.8B](https://huggingface.co/ai-sage/GigaChat3-10B-A1.8B) на [SWE-bench](https://www.swebench.com/) с использованием [mini-swe-agent](https://github.com/klieret/mini-swe-agent).
+Бенчмарк модели [GigaChat3-10B-A1.8B](https://huggingface.co/ai-sage/GigaChat3-10B-A1.8B) на [SWE-bench](https://www.swebench.com/) с использованием [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent).
 
 ## Требования
 
@@ -31,7 +31,7 @@ pip install --upgrade pip
 
 ```bash
 # Установить mini-swe-agent
-pip install -e .
+pip install git+https://github.com/SWE-agent/mini-swe-agent.git
 
 # Установить vLLM для inference
 pip install vllm>=0.6.0 huggingface_hub transformers
@@ -237,5 +237,5 @@ MIT
 
 - [GigaChat3-10B-A1.8B](https://huggingface.co/ai-sage/GigaChat3-10B-A1.8B)
 - [SWE-bench](https://www.swebench.com/)
-- [mini-swe-agent](https://github.com/klieret/mini-swe-agent)
+- [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)
 - [vLLM](https://github.com/vllm-project/vllm)
