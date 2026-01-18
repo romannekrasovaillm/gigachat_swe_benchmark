@@ -48,6 +48,7 @@ environment:
 model:
   model_name: "openai/gigachat-10b"
   litellm_model_registry: "model_registry.json"
+  cost_tracking: "ignore_errors"  # Local model has no cost
   model_kwargs:
     api_base: "http://localhost:8000/v1"
     api_key: "local"
