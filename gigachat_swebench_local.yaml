@@ -33,6 +33,8 @@ agent:
   format_error_template: |
     Please provide EXACTLY ONE action in triple backticks, found {{actions|length}} actions.
     Format as shown in the examples above.
+  timeout_template: |
+    Command timed out. Use more targeted commands or split into smaller steps.
   step_limit: 50  # Reduced for local testing
   cost_limit: 0.0
 
