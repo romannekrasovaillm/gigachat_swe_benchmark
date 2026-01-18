@@ -29,10 +29,13 @@ from pathlib import Path
 import yaml
 from datasets import load_dataset
 
-# Add parent to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-
-from minisweagent.agents.default import DefaultAgent
+# Try to import from pip-installed package first, fall back to local path
+try:
+    from minisweagent.agents.default import DefaultAgent
+except ImportError:
+    # Fall back to local path if running from mini-swe-agent repo
+    sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+    from minisweagent.agents.default import DefaultAgent
 from minisweagent.environments.local import LocalEnvironment
 from minisweagent.models import get_model
 
