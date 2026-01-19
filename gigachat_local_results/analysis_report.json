@@ -1,0 +1,2423 @@
+{
+  "generated_at": "2026-01-19T05:04:13.911459",
+  "total_instances": 300,
+  "completed": 0,
+  "failed": 300,
+  "with_patch": 17,
+  "completion_rate": 0.0,
+  "patch_rate": 5.666666666666666,
+  "avg_steps": 0.0,
+  "median_steps": 0.0,
+  "total_cost": 0.0,
+  "exit_status_counts": {
+    "unknown": 300
+  },
+  "error_categories": {
+    "no_action": 300
+  },
+  "repo_stats": {
+    "astropy/astropy-12907": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "astropy/astropy-14182": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "astropy/astropy-14365": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "astropy/astropy-14995": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "astropy/astropy-6938": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "astropy/astropy-7746": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-10914": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-10924": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11001": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11019": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11039": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11049": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11099": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11133": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11179": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11283": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11422": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11564": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "django/django-11583": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11620": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11630": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "django/django-11742": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11797": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11815": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11848": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11905": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11910": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11964": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-11999": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12113": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12125": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12184": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12284": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12286": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12308": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12453": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "django/django-12470": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12497": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12589": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12700": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12708": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12747": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12856": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12908": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12915": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-12983": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13028": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13033": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13158": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13220": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13230": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13265": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13315": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13321": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13401": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13447": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13448": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13551": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13590": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13658": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13660": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13710": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13757": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13768": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13925": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13933": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-13964": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14016": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14017": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14155": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14238": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14382": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14411": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14534": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14580": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14608": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "django/django-14667": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14672": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14730": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14752": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14787": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14855": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14915": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14997": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-14999": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15061": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15202": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15213": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15252": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15320": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15347": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15388": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15400": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15498": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15695": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15738": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15781": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15789": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15790": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15814": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15819": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15851": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15902": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-15996": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16041": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16046": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16139": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16229": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16255": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16379": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16400": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16408": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16527": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16595": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16816": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16820": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16873": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-16910": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-17051": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "django/django-17087": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-18869": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-22711": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-22835": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23299": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23314": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23476": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23562": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23563": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23913": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23964": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-23987": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-24149": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-24265": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-24334": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-24970": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25079": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25311": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25332": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25433": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25442": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-25498": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-26011": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "matplotlib/matplotlib-26020": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "mwaskom/seaborn-2848": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "mwaskom/seaborn-3010": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "mwaskom/seaborn-3190": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "mwaskom/seaborn-3407": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pallets/flask-4045": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pallets/flask-4992": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "pallets/flask-5063": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-1963": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-2148": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-2317": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-2674": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-3362": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "psf/requests-863": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydata/xarray-3364": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydata/xarray-4094": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydata/xarray-4248": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydata/xarray-4493": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pydata/xarray-5131": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-5859": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-6506": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-7080": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-7114": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-7228": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pylint-dev/pylint-7993": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-11143": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-11148": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5103": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5221": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5227": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5413": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5495": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-5692": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-6116": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "pytest-dev/pytest-7168": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-7220": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-7373": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-7432": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-7490": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-8365": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-8906": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "pytest-dev/pytest-9359": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-10297": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-10508": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-10949": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-11040": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-11281": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-12471": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-13142": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "scikit-learn/scikit-learn-13241": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "scikit-learn/scikit-learn-13439": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-13496": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-13497": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-13584": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-13779": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-14087": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-14092": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-14894": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-14983": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "scikit-learn/scikit-learn-15512": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-15535": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-25500": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-25570": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-25638": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "scikit-learn/scikit-learn-25747": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-10325": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-10451": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-11445": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-7686": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-7738": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-7975": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8273": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8282": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8435": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8474": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8506": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8595": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8627": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8713": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8721": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sphinx-doc/sphinx-8801": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-11400": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-11870": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-11897": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-12171": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-12236": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-12419": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-12454": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-12481": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13031": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13043": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13146": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13177": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13437": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13471": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13480": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13647": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13773": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13895": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13915": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-13971": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14024": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14308": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14317": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14396": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14774": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-14817": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-15011": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-15308": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-15345": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-15346": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-15609": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-15678": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-16106": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-16281": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-16503": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-16792": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-16988": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-17022": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-17139": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-17630": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-17655": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18057": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18087": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18189": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18199": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18532": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18621": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18698": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-18835": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-19007": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-19254": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-19487": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20049": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20154": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20212": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20322": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20442": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-20590": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-20639": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21055": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21171": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21379": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21612": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21614": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21627": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-21847": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 1,
+      "completion_rate": 0.0,
+      "patch_rate": 100.0
+    },
+    "sympy/sympy-22005": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-22714": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-22840": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-23117": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-23191": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-23262": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-24066": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-24102": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-24152": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-24213": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    },
+    "sympy/sympy-24909": {
+      "total": 1,
+      "completed": 0,
+      "with_patch": 0,
+      "completion_rate": 0.0,
+      "patch_rate": 0.0
+    }
+  },
+  "successful_instances": [],
+  "failed_instances": [
+    "astropy__astropy-12907",
+    "astropy__astropy-14182",
+    "astropy__astropy-14365",
+    "astropy__astropy-14995",
+    "astropy__astropy-6938",
+    "astropy__astropy-7746",
+    "django__django-10914",
+    "django__django-10924",
+    "django__django-11001",
+    "django__django-11019",
+    "django__django-11039",
+    "django__django-11049",
+    "django__django-11099",
+    "django__django-11133",
+    "django__django-11179",
+    "django__django-11283",
+    "django__django-11422",
+    "django__django-11564",
+    "django__django-11583",
+    "django__django-11620",
+    "django__django-11630",
+    "django__django-11742",
+    "django__django-11797",
+    "django__django-11815",
+    "django__django-11848",
+    "django__django-11905",
+    "django__django-11910",
+    "django__django-11964",
+    "django__django-11999",
+    "django__django-12113",
+    "django__django-12125",
+    "django__django-12184",
+    "django__django-12284",
+    "django__django-12286",
+    "django__django-12308",
+    "django__django-12453",
+    "django__django-12470",
+    "django__django-12497",
+    "django__django-12589",
+    "django__django-12700",
+    "django__django-12708",
+    "django__django-12747",
+    "django__django-12856",
+    "django__django-12908",
+    "django__django-12915",
+    "django__django-12983",
+    "django__django-13028",
+    "django__django-13033",
+    "django__django-13158",
+    "django__django-13220",
+    "django__django-13230",
+    "django__django-13265",
+    "django__django-13315",
+    "django__django-13321",
+    "django__django-13401",
+    "django__django-13447",
+    "django__django-13448",
+    "django__django-13551",
+    "django__django-13590",
+    "django__django-13658",
+    "django__django-13660",
+    "django__django-13710",
+    "django__django-13757",
+    "django__django-13768",
+    "django__django-13925",
+    "django__django-13933",
+    "django__django-13964",
+    "django__django-14016",
+    "django__django-14017",
+    "django__django-14155",
+    "django__django-14238",
+    "django__django-14382",
+    "django__django-14411",
+    "django__django-14534",
+    "django__django-14580",
+    "django__django-14608",
+    "django__django-14667",
+    "django__django-14672",
+    "django__django-14730",
+    "django__django-14752",
+    "django__django-14787",
+    "django__django-14855",
+    "django__django-14915",
+    "django__django-14997",
+    "django__django-14999",
+    "django__django-15061",
+    "django__django-15202",
+    "django__django-15213",
+    "django__django-15252",
+    "django__django-15320",
+    "django__django-15347",
+    "django__django-15388",
+    "django__django-15400",
+    "django__django-15498",
+    "django__django-15695",
+    "django__django-15738",
+    "django__django-15781",
+    "django__django-15789",
+    "django__django-15790",
+    "django__django-15814",
+    "django__django-15819",
+    "django__django-15851",
+    "django__django-15902",
+    "django__django-15996",
+    "django__django-16041",
+    "django__django-16046",
+    "django__django-16139",
+    "django__django-16229",
+    "django__django-16255",
+    "django__django-16379",
+    "django__django-16400",
+    "django__django-16408",
+    "django__django-16527",
+    "django__django-16595",
+    "django__django-16816",
+    "django__django-16820",
+    "django__django-16873",
+    "django__django-16910",
+    "django__django-17051",
+    "django__django-17087",
+    "matplotlib__matplotlib-18869",
+    "matplotlib__matplotlib-22711",
+    "matplotlib__matplotlib-22835",
+    "matplotlib__matplotlib-23299",
+    "matplotlib__matplotlib-23314",
+    "matplotlib__matplotlib-23476",
+    "matplotlib__matplotlib-23562",
+    "matplotlib__matplotlib-23563",
+    "matplotlib__matplotlib-23913",
+    "matplotlib__matplotlib-23964",
+    "matplotlib__matplotlib-23987",
+    "matplotlib__matplotlib-24149",
+    "matplotlib__matplotlib-24265",
+    "matplotlib__matplotlib-24334",
+    "matplotlib__matplotlib-24970",
+    "matplotlib__matplotlib-25079",
+    "matplotlib__matplotlib-25311",
+    "matplotlib__matplotlib-25332",
+    "matplotlib__matplotlib-25433",
+    "matplotlib__matplotlib-25442",
+    "matplotlib__matplotlib-25498",
+    "matplotlib__matplotlib-26011",
+    "matplotlib__matplotlib-26020",
+    "mwaskom__seaborn-2848",
+    "mwaskom__seaborn-3010",
+    "mwaskom__seaborn-3190",
+    "mwaskom__seaborn-3407",
+    "pallets__flask-4045",
+    "pallets__flask-4992",
+    "pallets__flask-5063",
+    "psf__requests-1963",
+    "psf__requests-2148",
+    "psf__requests-2317",
+    "psf__requests-2674",
+    "psf__requests-3362",
+    "psf__requests-863",
+    "pydata__xarray-3364",
+    "pydata__xarray-4094",
+    "pydata__xarray-4248",
+    "pydata__xarray-4493",
+    "pydata__xarray-5131",
+    "pylint-dev__pylint-5859",
+    "pylint-dev__pylint-6506",
+    "pylint-dev__pylint-7080",
+    "pylint-dev__pylint-7114",
+    "pylint-dev__pylint-7228",
+    "pylint-dev__pylint-7993",
+    "pytest-dev__pytest-11143",
+    "pytest-dev__pytest-11148",
+    "pytest-dev__pytest-5103",
+    "pytest-dev__pytest-5221",
+    "pytest-dev__pytest-5227",
+    "pytest-dev__pytest-5413",
+    "pytest-dev__pytest-5495",
+    "pytest-dev__pytest-5692",
+    "pytest-dev__pytest-6116",
+    "pytest-dev__pytest-7168",
+    "pytest-dev__pytest-7220",
+    "pytest-dev__pytest-7373",
+    "pytest-dev__pytest-7432",
+    "pytest-dev__pytest-7490",
+    "pytest-dev__pytest-8365",
+    "pytest-dev__pytest-8906",
+    "pytest-dev__pytest-9359",
+    "scikit-learn__scikit-learn-10297",
+    "scikit-learn__scikit-learn-10508",
+    "scikit-learn__scikit-learn-10949",
+    "scikit-learn__scikit-learn-11040",
+    "scikit-learn__scikit-learn-11281",
+    "scikit-learn__scikit-learn-12471",
+    "scikit-learn__scikit-learn-13142",
+    "scikit-learn__scikit-learn-13241",
+    "scikit-learn__scikit-learn-13439",
+    "scikit-learn__scikit-learn-13496",
+    "scikit-learn__scikit-learn-13497",
+    "scikit-learn__scikit-learn-13584",
+    "scikit-learn__scikit-learn-13779",
+    "scikit-learn__scikit-learn-14087",
+    "scikit-learn__scikit-learn-14092",
+    "scikit-learn__scikit-learn-14894",
+    "scikit-learn__scikit-learn-14983",
+    "scikit-learn__scikit-learn-15512",
+    "scikit-learn__scikit-learn-15535",
+    "scikit-learn__scikit-learn-25500",
+    "scikit-learn__scikit-learn-25570",
+    "scikit-learn__scikit-learn-25638",
+    "scikit-learn__scikit-learn-25747",
+    "sphinx-doc__sphinx-10325",
+    "sphinx-doc__sphinx-10451",
+    "sphinx-doc__sphinx-11445",
+    "sphinx-doc__sphinx-7686",
+    "sphinx-doc__sphinx-7738",
+    "sphinx-doc__sphinx-7975",
+    "sphinx-doc__sphinx-8273",
+    "sphinx-doc__sphinx-8282",
+    "sphinx-doc__sphinx-8435",
+    "sphinx-doc__sphinx-8474",
+    "sphinx-doc__sphinx-8506",
+    "sphinx-doc__sphinx-8595",
+    "sphinx-doc__sphinx-8627",
+    "sphinx-doc__sphinx-8713",
+    "sphinx-doc__sphinx-8721",
+    "sphinx-doc__sphinx-8801",
+    "sympy__sympy-11400",
+    "sympy__sympy-11870",
+    "sympy__sympy-11897",
+    "sympy__sympy-12171",
+    "sympy__sympy-12236",
+    "sympy__sympy-12419",
+    "sympy__sympy-12454",
+    "sympy__sympy-12481",
+    "sympy__sympy-13031",
+    "sympy__sympy-13043",
+    "sympy__sympy-13146",
+    "sympy__sympy-13177",
+    "sympy__sympy-13437",
+    "sympy__sympy-13471",
+    "sympy__sympy-13480",
+    "sympy__sympy-13647",
+    "sympy__sympy-13773",
+    "sympy__sympy-13895",
+    "sympy__sympy-13915",
+    "sympy__sympy-13971",
+    "sympy__sympy-14024",
+    "sympy__sympy-14308",
+    "sympy__sympy-14317",
+    "sympy__sympy-14396",
+    "sympy__sympy-14774",
+    "sympy__sympy-14817",
+    "sympy__sympy-15011",
+    "sympy__sympy-15308",
+    "sympy__sympy-15345",
+    "sympy__sympy-15346",
+    "sympy__sympy-15609",
+    "sympy__sympy-15678",
+    "sympy__sympy-16106",
+    "sympy__sympy-16281",
+    "sympy__sympy-16503",
+    "sympy__sympy-16792",
+    "sympy__sympy-16988",
+    "sympy__sympy-17022",
+    "sympy__sympy-17139",
+    "sympy__sympy-17630",
+    "sympy__sympy-17655",
+    "sympy__sympy-18057",
+    "sympy__sympy-18087",
+    "sympy__sympy-18189",
+    "sympy__sympy-18199",
+    "sympy__sympy-18532",
+    "sympy__sympy-18621",
+    "sympy__sympy-18698",
+    "sympy__sympy-18835",
+    "sympy__sympy-19007",
+    "sympy__sympy-19254",
+    "sympy__sympy-19487",
+    "sympy__sympy-20049",
+    "sympy__sympy-20154",
+    "sympy__sympy-20212",
+    "sympy__sympy-20322",
+    "sympy__sympy-20442",
+    "sympy__sympy-20590",
+    "sympy__sympy-20639",
+    "sympy__sympy-21055",
+    "sympy__sympy-21171",
+    "sympy__sympy-21379",
+    "sympy__sympy-21612",
+    "sympy__sympy-21614",
+    "sympy__sympy-21627",
+    "sympy__sympy-21847",
+    "sympy__sympy-22005",
+    "sympy__sympy-22714",
+    "sympy__sympy-22840",
+    "sympy__sympy-23117",
+    "sympy__sympy-23191",
+    "sympy__sympy-23262",
+    "sympy__sympy-24066",
+    "sympy__sympy-24102",
+    "sympy__sympy-24152",
+    "sympy__sympy-24213",
+    "sympy__sympy-24909"
+  ]
+}
