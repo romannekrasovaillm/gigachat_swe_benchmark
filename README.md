@@ -195,7 +195,7 @@ git push -u origin main
 | Llama 3.1 405B | 14.0% |
 | DeepSeek-V2 | 12.0% |
 | Mixtral 8x22B | 4.3% |
-| **GigaChat3-10B** | **TBD** |
+| **GigaChat3-10B** | **0%** (5.7% патчей сгенерировано) |
 
 ## Troubleshooting
 
