@@ -1,0 +1,6 @@
+{
+  "instance_id": "scikit-learn__scikit-learn-13497",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_i1w1zp89/scikit-learn_scikit-learn_scikit-learn__scikit-learn-13497'"
+}

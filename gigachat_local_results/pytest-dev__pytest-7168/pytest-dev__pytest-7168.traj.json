@@ -1,0 +1,6 @@
+{
+  "instance_id": "pytest-dev__pytest-7168",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_rfxpo1id/pytest-dev_pytest_pytest-dev__pytest-7168'"
+}

@@ -1,0 +1,6 @@
+{
+  "instance_id": "django__django-11019",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_x1o4cng6/django_django_django__django-11019'"
+}

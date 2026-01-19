@@ -1,0 +1,6 @@
+{
+  "instance_id": "pydata__xarray-4493",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_x1o4cng6/pydata_xarray_pydata__xarray-4493'"
+}

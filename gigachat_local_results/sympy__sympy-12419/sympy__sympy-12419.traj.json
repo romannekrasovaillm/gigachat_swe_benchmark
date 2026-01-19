@@ -1,0 +1,6 @@
+{
+  "instance_id": "sympy__sympy-12419",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_x1o4cng6/sympy_sympy_sympy__sympy-12419'"
+}

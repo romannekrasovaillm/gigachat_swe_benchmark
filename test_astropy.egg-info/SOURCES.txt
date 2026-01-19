@@ -1,0 +1,7 @@
+README.md
+setup.py
+test_astropy.egg-info/PKG-INFO
+test_astropy.egg-info/SOURCES.txt
+test_astropy.egg-info/dependency_links.txt
+test_astropy.egg-info/not-zip-safe
+test_astropy.egg-info/top_level.txt

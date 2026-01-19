@@ -1,0 +1,6 @@
+{
+  "instance_id": "psf__requests-3362",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_i1w1zp89/psf_requests_psf__requests-3362'"
+}

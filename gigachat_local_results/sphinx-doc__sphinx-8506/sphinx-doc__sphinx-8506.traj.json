@@ -1,0 +1,6 @@
+{
+  "instance_id": "sphinx-doc__sphinx-8506",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_x1o4cng6/sphinx-doc_sphinx_sphinx-doc__sphinx-8506'"
+}

@@ -1,0 +1,6 @@
+{
+  "instance_id": "django__django-13658",
+  "exit_status": "FileNotFoundError",
+  "steps": 0,
+  "error": "[Errno 2] No such file or directory: '/tmp/swebench_local_rfxpo1id/django_django_django__django-13658'"
+}
